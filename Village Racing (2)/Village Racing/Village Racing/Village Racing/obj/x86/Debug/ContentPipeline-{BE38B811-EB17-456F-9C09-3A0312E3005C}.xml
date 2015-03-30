@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>head.png</Source>
+      <Name>head</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\head.xnb</Output>
+      <Time>2015-03-19T20:07:46.4577456-07:00</Time>
+    </Item>
+    <Item>
+      <Source>body.png</Source>
+      <Name>body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\body.xnb</Output>
+      <Time>2015-03-19T20:08:54.9536634-07:00</Time>
+    </Item>
+    <Item>
+      <Source>foot.png</Source>
+      <Name>foot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\foot.xnb</Output>
+      <Time>2015-03-19T20:09:17.3679454-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Background.png</Source>
+      <Name>Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Background.xnb</Output>
+      <Time>2015-03-21T07:54:10.2636184-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Hill1.png</Source>
+      <Name>Hill1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Hill1.xnb</Output>
+      <Time>2015-03-21T11:30:56.8065501-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Hill2.png</Source>
+      <Name>Hill2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Hill2.xnb</Output>
+      <Time>2015-03-21T11:31:04.9760174-07:00</Time>
+    </Item>
+    <Item>
+      <Source>LargeCloud.png</Source>
+      <Name>LargeCloud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\LargeCloud.xnb</Output>
+      <Time>2015-03-21T08:27:44.4718245-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallCloud.png</Source>
+      <Name>SmallCloud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\SmallCloud.xnb</Output>
+      <Time>2015-03-21T07:54:26.3435381-07:00</Time>
+    </Item>
+    <Item>
+      <Source>BB1.png</Source>
+      <Name>BB1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\BB1.xnb</Output>
+      <Time>2015-03-21T19:18:53.0553967-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Brick.png</Source>
+      <Name>Brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Brick.xnb</Output>
+      <Time>2015-03-21T19:18:42.9048161-07:00</Time>
+    </Item>
+    <Item>
+      <Source>tileSheet.png</Source>
+      <Name>tileSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\tileSheet.xnb</Output>
+      <Time>2015-03-23T12:45:21.1985783-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{BE38B811-EB17-456F-9C09-3A0312E3005C}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village RacingContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-01-13T05:46:34.2439736-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
