@@ -15,21 +15,25 @@ namespace Village_Racing
         public Texture2D Brick;
         Texture2D Metal;
         Texture2D net;
+        Texture2D push;
+        Texture2D water;
         enum Levels {Ship, Outside};
-        public int[,] levelOne = new int[512, 512];
-        public Block[,] blocks = new Block[512, 512];
+        public UnlimitedMatrix<int> levelOne = new UnlimitedMatrix<int>();
+        public UnlimitedMatrix<Block> blocks = new UnlimitedMatrix<Block>();
         public Vector2 StartingPoint;
         public Vector2 EndingPoint;
         MouseState lastState;
         Camera camera;
 
 
-        public TileMap(Texture2D Brick, Texture2D Metal, Texture2D Net, Camera camera)
+        public TileMap(Texture2D Brick, Texture2D Metal, Texture2D Net, Texture2D push, Texture2D water, Camera camera)
         {
             this.Brick = Brick;
             this.Metal = Metal;
             this.camera = camera;
             net = Net;
+            this.push = push;
+            this.water = water;
         }
 
         public void SetTile(int x, int y, int type)
@@ -41,6 +45,10 @@ namespace Village_Racing
                 blocks[x, y] = new Block(Brick, new Vector2(x * 64, y * 64), "Solid", "Brick", "Solid", "Brick");
             if (type == 3)
                 blocks[x, y] = new Block(net, new Vector2(x * 64, y * 64), "Net");
+            if (type == 4)
+                blocks[x, y] = new Block(push, new Vector2(x * 64, y * 64), "Push");
+            if (type == 5)
+                blocks[x, y] = new Block(water, new Vector2(x * 64, y * 64), "Water");
             //blocks[x, y] = new Rectangle(x * 64, y * 64, 64, 64);
         }
 
@@ -64,29 +72,21 @@ namespace Village_Racing
 
         public void Update()
         {
-            StartingPoint = (camera.Position);
-            EndingPoint = new Vector2(StartingPoint.X + 1124, StartingPoint.Y + 868);
+            StartingPoint = new Vector2(camera.Position.X - 200, camera.Position.Y - 200);
+            EndingPoint = new Vector2(StartingPoint.X + 1324, StartingPoint.Y + 1068);
             EndingPoint /= 64;
             StartingPoint /= 64;
 
-            //if (Mouse.GetState().LeftButton == ButtonState.Pressed /* && lastState.LeftButton == ButtonState.Pressed*/)
-            //{
-            //    SetTile((int)((Mouse.GetState().X + camera.Position.X) / 64), (int)((Mouse.GetState().Y + camera.Position.Y) / 64), 2);
-            //}
-            //if (Mouse.GetState().RightButton == ButtonState.Pressed /*&& lastState.RightButton == ButtonState.Pressed*/)
-            //{
-            //    SetTile((int)((Mouse.GetState().X + camera.Position.X) / 64), (int)((Mouse.GetState().Y + camera.Position.Y) / 64), 0);
-            //}
+            if (Mouse.GetState().LeftButton == ButtonState.Pressed /* && lastState.LeftButton == ButtonState.Pressed*/)
+            {
+                SetTile((int)((Mouse.GetState().X + camera.Position.X) / 64), (int)((Mouse.GetState().Y + camera.Position.Y) / 64), 1);
+            }
+            if (Mouse.GetState().RightButton == ButtonState.Pressed /*&& lastState.RightButton == ButtonState.Pressed*/)
+            {
+                SetTile((int)((Mouse.GetState().X + camera.Position.X) / 64), (int)((Mouse.GetState().Y + camera.Position.Y) / 64), 0);
+            }
             lastState = Mouse.GetState();
 
-            if (StartingPoint.X < 0)
-            {
-                StartingPoint.X = 0;
-            }
-            if (StartingPoint.Y < 0)
-            {
-                StartingPoint.Y = 0;
-            }
         }
 
 
@@ -96,10 +96,18 @@ namespace Village_Racing
             {
                 for (int x = (int)StartingPoint.X; x != (int)EndingPoint.X; x++)
                 {
-                    if (levelOne[x, y] > 0)
+                    try
                     {
-                        //spriteBatch.Draw(Metal, new Rectangle((x * 64) + 0, y * 64, 64, 64), Color.White);
-                        blocks[x, y].Draw(spriteBatch);
+                        if (levelOne[x, y] > 0)
+                        {
+                            //spriteBatch.Draw(Metal, new Rectangle((x * 64) + 0, y * 64, 64, 64), Color.White);
+                            if (blocks[x, y] != null)
+                                blocks[x, y].Draw(spriteBatch);
+                        }
+                    }
+                    catch
+                    {
+                        //Nothing?
                     }
                 }
             }

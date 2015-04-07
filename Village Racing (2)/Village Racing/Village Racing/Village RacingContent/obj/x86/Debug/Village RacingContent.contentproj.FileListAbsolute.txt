@@ -1,2 +1,3 @@
 C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village RacingContent\obj\x86\Debug\Village RacingContent.contentprojResolveAssemblyReference.cache
 \\isd-fs01\sl_students$\205489\My Documents\AngularJS\Village Racing (2)\Village Racing\Village Racing\Village RacingContent\obj\x86\Debug\Village RacingContent.contentprojResolveAssemblyReference.cache
+C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village RacingContent\obj\x86\Debug\Village RacingContent.contentprojResolveAssemblyReference.cache

@@ -109,6 +109,24 @@
       <Output>\\isd-fs01\sl_students$\205489\My Documents\AngularJS\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\net-katase.xnb</Output>
       <Time>2015-03-30T08:13:31.812062-04:00</Time>
     </Item>
+    <Item>
+      <Source>push.png</Source>
+      <Name>push</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\isd-fs01\sl_students$\205489\My Documents\AngularJS\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\push.xnb</Output>
+      <Time>2015-03-31T09:03:33.7094223-04:00</Time>
+    </Item>
+    <Item>
+      <Source>water.png</Source>
+      <Name>water</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\isd-fs01\sl_students$\205489\My Documents\AngularJS\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\water.xnb</Output>
+      <Time>2015-03-31T09:39:28.4779534-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

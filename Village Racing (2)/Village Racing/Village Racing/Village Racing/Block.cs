@@ -29,10 +29,10 @@ namespace Village_Racing
             rect = new Rectangle((int)pos.X, (int)pos.Y, 64, 64);
             x = (int)pos.X;
             y = (int)pos.Y;
-            Sides[0] = new Rectangle((x), (y) + 27, 10, 10); //Left
-            Sides[1] = new Rectangle((x) + 18, (y), 28, 10); //Top
-            Sides[2] = new Rectangle((x) + 54, (y) + 27, 10, 10); //Right
-            Sides[3] = new Rectangle((x) + 18, (y) + 54, 28, 10); //Bottom
+            Sides[0] = new Rectangle((x), (y) + 10, 18, 44); //Left
+            Sides[1] = new Rectangle((x) + 10, (y), 44, 10); //Top
+            Sides[2] = new Rectangle((x) + 46, (y) + 10, 18, 44); //Right
+            Sides[3] = new Rectangle((x) + 20, (y) + 54, 24, 10); //Bottom
         }
 
         public Block(Texture2D text, Vector2 pos, string allSides)
@@ -46,10 +46,14 @@ namespace Village_Racing
             rect = new Rectangle((int)pos.X, (int)pos.Y, 64, 64);
             x = (int)pos.X;
             y = (int)pos.Y;
-            Sides[0] = new Rectangle((x), (y) + 20, 24, 10); //Left
-            Sides[1] = new Rectangle((x) + 18, (y), 28, 10); //Top
-            Sides[2] = new Rectangle((x) + 54, (y) + 20, 24, 10); //Right
-            Sides[3] = new Rectangle((x) + 18, (y) + 54, 28, 10); //Bottom
+            //Sides[0] = new Rectangle((x), (y) + 21, 16, 22); //Left
+            //Sides[1] = new Rectangle((x) + 18, (y), 28, 10); //Top
+            //Sides[2] = new Rectangle((x) + 54, (y) + 27, 10, 10); //Right
+            //Sides[3] = new Rectangle((x) + 18, (y) + 54, 28, 10); //Bottom
+            Sides[0] = new Rectangle((x), (y) + 10, 18, 44); //Left
+            Sides[1] = new Rectangle((x) + 24, (y), 15, 10); //Top
+            Sides[2] = new Rectangle((x) + 46, (y) + 10, 18, 44); //Right
+            Sides[3] = new Rectangle((x) + 24, (y) + 54, 15, 10); //Bottom
         }
 
         public void Draw(SpriteBatch spritebatch)

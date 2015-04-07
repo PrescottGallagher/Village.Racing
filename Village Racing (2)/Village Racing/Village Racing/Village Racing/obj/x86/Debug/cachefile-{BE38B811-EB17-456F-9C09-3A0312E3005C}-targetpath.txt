@@ -10,3 +10,6 @@ Content\BB1.xnb
 Content\Brick.xnb
 Content\tileSheet.xnb
 Content\net-katase.xnb
+Content\push.xnb
+Content\water.xnb
+Content\background (1).xnb

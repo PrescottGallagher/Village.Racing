@@ -22,6 +22,7 @@ namespace Village_Racing
         TitleScreen mainScreen;
         Camera camera;
         KeyboardState keyState;
+        Texture2D gameBG;
 
         public Game1()
         {
@@ -43,11 +44,12 @@ namespace Village_Racing
             graphics.PreferredBackBufferHeight = 768;
             graphics.PreferredBackBufferWidth = 1024;
             this.IsMouseVisible = true;
+            gameBG = Content.Load<Texture2D>("background (1)");
             graphics.ApplyChanges();
             camera = new Camera(GraphicsDevice.Viewport);
-            camera.Limits = new Rectangle(0, 0, 200000, 200000);
+
             mainScreen = new TitleScreen(Content.Load<Texture2D>("SmallCloud"), Content.Load<Texture2D>("LargeCloud"), Content.Load<Texture2D>("Hill1"), Content.Load<Texture2D>("Hill2"), Content.Load<Texture2D>("Background"));
-            tiles = new TileMap(Content.Load<Texture2D>("Brick"), Content.Load<Texture2D>("BB1"), Content.Load<Texture2D>("net-katase"), camera);
+            tiles = new TileMap(Content.Load<Texture2D>("Brick"), Content.Load<Texture2D>("BB1"), Content.Load<Texture2D>("net-katase"), Content.Load<Texture2D>("push"), Content.Load<Texture2D>("water"), camera);
             player = new Player(Content.Load<Texture2D>("head"), Content.Load<Texture2D>("body"), Content.Load<Texture2D>("foot"), Color.DarkViolet, new Vector2(200, 200), tiles);
             tiles.toLevel();
         }
@@ -88,6 +90,9 @@ namespace Village_Racing
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Gray);
+            spriteBatch.Begin(SpriteSortMode.Deferred, null, null, null, null, null, camera.GetViewMatrix(new Vector2(0.0f)));
+            spriteBatch.Draw(gameBG, new Rectangle(0, 0, 1024, 768), Color.White);
+            spriteBatch.End();
             spriteBatch.Begin(SpriteSortMode.Deferred, null, null, null, null, null, camera.GetViewMatrix(new Vector2(1.0f)));
             if (currentState == GameStates.Playing)
             {
@@ -99,7 +104,8 @@ namespace Village_Racing
                 mainScreen.Draw(spriteBatch);
             }
             spriteBatch.End();
-            base.Draw(gameTime);
+            this.Window.Title = (1 / (float)gameTime.ElapsedGameTime.TotalSeconds).ToString() + " FPS || " + "X: " + ((int)player.Position.X / 64).ToString() + ", Y: " + ((int)player.Position.Y / 64).ToString();
+            base.Draw(gameTime); 
         }
     }
 }

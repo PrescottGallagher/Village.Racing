@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\head.xnb</Output>
-      <Time>2015-03-19T20:07:46.4577456-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\head.xnb</Output>
+      <Time>2015-03-30T08:03:32-07:00</Time>
     </Item>
     <Item>
       <Source>body.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\body.xnb</Output>
-      <Time>2015-03-19T20:08:54.9536634-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\body.xnb</Output>
+      <Time>2015-03-30T08:03:32-07:00</Time>
     </Item>
     <Item>
       <Source>foot.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\foot.xnb</Output>
-      <Time>2015-03-19T20:09:17.3679454-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\foot.xnb</Output>
+      <Time>2015-03-30T08:03:32-07:00</Time>
     </Item>
     <Item>
       <Source>Background.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Background.xnb</Output>
-      <Time>2015-03-21T07:54:10.2636184-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Background.xnb</Output>
+      <Time>2015-03-30T08:03:30-07:00</Time>
     </Item>
     <Item>
       <Source>Hill1.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Hill1.xnb</Output>
-      <Time>2015-03-21T11:30:56.8065501-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Hill1.xnb</Output>
+      <Time>2015-03-30T08:03:32-07:00</Time>
     </Item>
     <Item>
       <Source>Hill2.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Hill2.xnb</Output>
-      <Time>2015-03-21T11:31:04.9760174-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Hill2.xnb</Output>
+      <Time>2015-03-30T08:03:32-07:00</Time>
     </Item>
     <Item>
       <Source>LargeCloud.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\LargeCloud.xnb</Output>
-      <Time>2015-03-21T08:27:44.4718245-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\LargeCloud.xnb</Output>
+      <Time>2015-03-30T08:03:32-07:00</Time>
     </Item>
     <Item>
       <Source>SmallCloud.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\SmallCloud.xnb</Output>
-      <Time>2015-03-21T07:54:26.3435381-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\SmallCloud.xnb</Output>
+      <Time>2015-03-30T08:03:34-07:00</Time>
     </Item>
     <Item>
       <Source>BB1.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\BB1.xnb</Output>
-      <Time>2015-03-21T19:18:53.0553967-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\BB1.xnb</Output>
+      <Time>2015-03-30T08:03:32-07:00</Time>
     </Item>
     <Item>
       <Source>Brick.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Brick.xnb</Output>
-      <Time>2015-03-21T19:18:42.9048161-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\Brick.xnb</Output>
+      <Time>2015-03-30T08:03:32-07:00</Time>
     </Item>
     <Item>
       <Source>tileSheet.png</Source>
@@ -97,8 +97,44 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\tileSheet.xnb</Output>
-      <Time>2015-03-23T12:45:21.1985783-07:00</Time>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\tileSheet.xnb</Output>
+      <Time>2015-03-30T08:03:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>net-katase.png</Source>
+      <Name>net-katase</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\net-katase.xnb</Output>
+      <Time>2015-03-30T08:13:32-07:00</Time>
+    </Item>
+    <Item>
+      <Source>push.png</Source>
+      <Name>push</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\push.xnb</Output>
+      <Time>2015-03-31T09:03:34-07:00</Time>
+    </Item>
+    <Item>
+      <Source>water.png</Source>
+      <Name>water</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\water.xnb</Output>
+      <Time>2015-03-31T09:39:30-07:00</Time>
+    </Item>
+    <Item>
+      <Source>background (1).png</Source>
+      <Name>background (1)</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\background (1).xnb</Output>
+      <Time>2015-03-31T18:23:49.8499544-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -107,10 +143,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village RacingContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Soul\Documents\Visual Studio 2010\Projects\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village RacingContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Soul\Desktop\New VR\Village Racing (2)\Village Racing\Village Racing\Village Racing\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
